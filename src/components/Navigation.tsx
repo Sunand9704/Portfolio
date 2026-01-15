@@ -18,14 +18,14 @@ const Navigation = () => {
     { href: '#about', label: 'About' },
     { href: '#services', label: 'Services' },
     { href: '#portfolio', label: 'Work' },
+    { href: '#live-projects', label: 'Live' },
     { href: '#contact', label: 'Contact' },
   ];
 
   return (
     <nav
-      className={`fixed top-0 w-full z-50 backdrop-blur-xl border-b border-white/5 transition-all duration-300 ${
-        isScrolled ? 'bg-background/90 shadow-lg' : 'bg-background/70'
-      }`}
+      className={`fixed top-0 w-full z-50 backdrop-blur-xl border-b border-white/5 transition-all duration-300 ${isScrolled ? 'bg-background/90 shadow-lg' : 'bg-background/70'
+        }`}
     >
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
