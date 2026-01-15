@@ -9,6 +9,8 @@ import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 import FloatingButtons from '@/components/FloatingButtons';
 
+import LiveProjects from '@/components/LiveProjects';
+
 const Index = () => {
   useEffect(() => {
     // Scroll reveal animation observer
@@ -45,6 +47,7 @@ const Index = () => {
       <StatsSection />
       <ServicesSection />
       <PortfolioSection />
+      <LiveProjects />
       <AboutSection />
       <ContactSection />
       <Footer />
