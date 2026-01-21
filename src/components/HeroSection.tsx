@@ -45,10 +45,10 @@ const HeroSection = () => {
             </span>
           </a>
           <a
-            href="#portfolio"
+            href="#live-projects"
             className="px-8 py-4 bg-transparent border border-white/10 text-white text-sm font-medium rounded-full hover:bg-white/5 transition-all duration-300 w-full sm:w-auto backdrop-blur-sm"
           >
-            View Portfolio
+            Live Projects
           </a>
         </div>
       </div>
