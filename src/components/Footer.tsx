@@ -6,10 +6,10 @@ const Footer = () => {
           href="#"
           className="text-xl font-bold tracking-tighter text-white font-display uppercase"
         >
-          JIGIRIS_TECH
+          Triozen.Tech
         </a>
         <p className="text-muted-foreground text-xs tracking-wide">
-          © 2024 JIGIRIS_TECH. All Rights Reserved.
+          © 2024 Triozen.Tech. All Rights Reserved.
         </p>
       </div>
     </footer>

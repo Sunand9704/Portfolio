@@ -27,7 +27,7 @@ const AboutSection = () => {
           Precision. Luxury. <span className="text-primary">Performance.</span>
         </h2>
         <p className="reveal stagger-1 text-lg text-muted-foreground font-light leading-relaxed mb-12">
-          At JIGIRIS_TECH, we don't just build websites; we craft digital
+          At Triozen.Tech, we don't just build websites; we craft digital
           legacies. Our approach is rooted in a deep understanding of luxury
           aesthetics.
         </p>
