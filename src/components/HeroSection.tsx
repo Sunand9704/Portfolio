@@ -25,7 +25,7 @@ const HeroSection = () => {
         </div>
 
         <h1 className="reveal active stagger-1 font-display text-5xl md:text-7xl lg:text-9xl font-semibold text-white tracking-tighter leading-[0.9] mb-8">
-          JIGIRIS<span className="text-neutral-700">_TECH</span>
+          Triozen<span className="text-neutral-700">.Tech</span>
         </h1>
 
         <p className="reveal active stagger-2 text-lg md:text-xl text-muted-foreground font-light max-w-2xl mx-auto mb-12 leading-relaxed">

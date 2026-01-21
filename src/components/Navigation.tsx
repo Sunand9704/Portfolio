@@ -31,10 +31,10 @@ const Navigation = () => {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
           <div className="w-8 h-8 bg-white text-black flex items-center justify-center font-bold text-xs rounded-lg group-hover:bg-primary transition-colors">
-            J
+            T
           </div>
           <span className="text-lg font-semibold tracking-tighter text-white group-hover:text-primary transition-colors duration-300 font-display uppercase">
-            JIGIRIS_TECH
+            Triozen.Tech
           </span>
         </a>
 
