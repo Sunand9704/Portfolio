@@ -10,16 +10,16 @@ const services = [
   },
   {
     icon: ShoppingBag,
-    title: 'E-Commerce & Shopify',
+    title: 'E-Commerce',
     description:
-      'High-converting stores with seamless checkout experiences. Custom Shopify solutions.',
+      'High-converting stores with seamless checkout experiences.',
     accentColor: 'bg-blue-500/5 group-hover:bg-blue-500/10',
   },
   {
     icon: Smartphone,
     title: 'Mobile App Development',
     description:
-      'Native and cross-platform mobile experiences (iOS & Android). We engineer scalable apps using Flutter and React Native.',
+      'Native and cross-platform mobile experiences (iOS & Android). We engineer scalable apps using  React Native.',
     accentColor: 'bg-emerald-500/5 group-hover:bg-emerald-500/10',
   },
 ];
