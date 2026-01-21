@@ -25,23 +25,23 @@ const ContactSection = () => {
               Email Us
             </span>
             <a
-              href="mailto:muhammadzeeshanabbas324@gmail.com"
+              href="mailto:triozen.tech@gmail.com"
               className="text-xl md:text-3xl font-medium text-white group-hover:text-primary transition-colors break-all"
             >
-              muhammadzeeshanabbas324@gmail.com
+              triozen.tech@gmail.com
             </a>
           </div>
 
           <div className="flex flex-col md:flex-row gap-4 justify-center">
             <a
-              href="mailto:muhammadzeeshanabbas324@gmail.com"
+              href="mailto:triozen.tech@gmail.com"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-black text-sm font-semibold rounded-full hover:bg-neutral-200 transition-all w-full md:w-auto"
             >
               <Mail className="w-[18px] h-[18px]" />
               Send Email
             </a>
             <a
-              href="https://wa.me/923185201248"
+              href="https://wa.me/9398334115"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#25D366] text-white text-sm font-semibold rounded-full hover:bg-[#20bd5a] transition-all w-full md:w-auto"
