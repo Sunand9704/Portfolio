@@ -9,7 +9,7 @@ const Footer = () => {
           Triozen.Tech
         </a>
         <p className="text-muted-foreground text-xs tracking-wide">
-          © 2024 Triozen.Tech. All Rights Reserved.
+          © {new Date().getFullYear()} Triozen.Tech. All Rights Reserved.
         </p>
       </div>
     </footer>

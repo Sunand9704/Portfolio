@@ -9,7 +9,7 @@ const features = [
   {
     icon: ShieldCheck,
     title: 'Transparent Policies',
-    description: 'Clear billing. 40% retention on cancellation.',
+    description: 'Clear billing',
   },
   {
     icon: Globe,

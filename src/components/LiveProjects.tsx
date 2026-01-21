@@ -3,40 +3,40 @@ import { ExternalLink } from 'lucide-react';
 
 const developedProjects = [
     {
-        title: "Solnexx",
-        description: "Innovative digital solutions empowering businesses with scalable technology and strategic design.",
-        link: "https://solnexx.com/",
-        category: "Corporate / Technology",
-        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        title: "Brelis Streetwear",
+        description: "Premium streetwear brand combining urban spirit with elite craftsmanship. Exclusive drops of oversized hoodies and tees.",
+        link: "https://brelis.in/",
+        category: "E-Commerce / Fashion",
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016260/Screenshot_2026-01-21_at_10.51.29_PM_wpxtsn.png"
     },
     {
         title: "CBM360 TIV",
         description: "Testing, Inspection & Certification Services. Ensuring safety, security, and sustainability worldwide with expert advisory.",
         link: "https://cbm360tiv.com/services",
         category: "Corporate / Industrial",
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016253/Screenshot_2026-01-21_at_10.51.16_PM_ige3de.png"
     },
     {
         title: "Inspectors 360",
         description: "Leading provider of recruitment, staffing, and HR administration. Specializing in technical staff and industrial equipment supply.",
         link: "https://inspectors360.com/services",
         category: "HR / Logistics",
-        image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-    },
-    {
-        title: "Brelis Streetwear",
-        description: "Premium streetwear brand combining urban spirit with elite craftsmanship. Exclusive drops of oversized hoodies and tees.",
-        link: "https://brelis.in/",
-        category: "E-Commerce / Fashion",
-        image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016262/Screenshot_2026-01-21_at_10.51.59_PM_nqaerm.png"
     },
     {
         title: "Custom Graphics 4U",
         description: "Dynamic online design tool for custom t-shirts and apparel. High-quality printing with a focus on creativity and fast delivery.",
         link: "https://customgraphics4u.com/",
         category: "Web Application / Design",
-        image: "https://images.unsplash.com/photo-1562183241-b937e95585b6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-    }
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016255/Screenshot_2026-01-21_at_10.52.25_PM_rl4pyu.png"
+    },
+    {
+        title: "Solnexx",
+        description: "Innovative digital solutions empowering businesses with scalable technology and strategic design.",
+        link: "https://solnexx.com/",
+        category: "Corporate / Technology",
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016257/Screenshot_2026-01-21_at_10.51.43_PM_c6izcp.png"
+    },
 ];
 
 const developingProjects = [
@@ -45,22 +45,25 @@ const developingProjects = [
         description: "Next-generation web application currently in active development phase. Focusing on performance and user scalability.",
         link: "https://nevyrafron.onrender.com/",
         category: "Under Development",
-        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016255/Screenshot_2026-01-21_at_10.52.52_PM_kgackl.png"
     },
     {
         title: "Skilltwin UX Mastery",
         description: "Interactive learning platform for UX/UI enthusiasts. Building the future of design education.",
         link: "https://skilltwin-ux-mastery-frontend.onrender.com/",
         category: "Education / EdTech",
-        image: "https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016736/Screenshot_2026-01-21_at_11.02.06_PM_arlsw4.png"
     }
 ];
 
 const LiveProjects = () => {
     const renderProjectCard = (project: typeof developedProjects[0], index: number) => (
-        <div
+        <a
             key={project.title}
-            className={`reveal stagger-${(index % 3) + 1} group relative p-8 rounded-2xl border border-white/5 bg-secondary/30 hover-card overflow-hidden`}
+            href={project.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`reveal stagger-${(index % 3) + 1} group relative p-8 rounded-2xl border border-white/5 bg-secondary/30 hover-card overflow-hidden block transition-all duration-300`}
         >
             {/* Background Glow */}
             <div className="absolute -right-20 -top-20 w-64 h-64 bg-primary/5 rounded-full blur-3xl group-hover:bg-primary/10 transition-colors duration-500" />
@@ -70,14 +73,11 @@ const LiveProjects = () => {
                     <span className="text-primary text-[10px] font-bold tracking-[0.2em] uppercase px-3 py-1 bg-primary/10 rounded-full border border-primary/20">
                         {project.category}
                     </span>
-                    <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 rounded-full bg-white/5 border border-white/10 text-white hover:bg-primary hover:text-black transition-all duration-300"
+                    <div
+                        className="p-2 rounded-full bg-white/5 border border-white/10 text-white group-hover:bg-primary group-hover:text-black transition-all duration-300"
                     >
                         <ExternalLink size={18} />
-                    </a>
+                    </div>
                 </div>
 
                 <div className="mb-8 overflow-hidden rounded-xl aspect-[16/9] border border-white/5">
@@ -97,20 +97,17 @@ const LiveProjects = () => {
                 </p>
 
                 <div className="pt-6 border-t border-white/5">
-                    <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="group/btn relative px-6 py-3 bg-white/5 border border-white/10 text-white text-xs font-semibold rounded-full overflow-hidden transition-all duration-300 inline-flex items-center gap-2 hover:bg-primary hover:text-black hover:border-primary"
+                    <div
+                        className="group/btn relative px-6 py-3 bg-white/5 border border-white/10 text-white text-xs font-semibold rounded-full overflow-hidden transition-all duration-300 inline-flex items-center gap-2 group-hover:bg-primary group-hover:text-black group-hover:border-primary"
                     >
                         <span className="relative z-10 flex items-center gap-2">
                             View Project
                             <ExternalLink size={14} className="group-hover/btn:translate-x-0.5 group-hover/btn:-translate-y-0.5 transition-transform" />
                         </span>
-                    </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        </a>
     );
 
     return (
