@@ -30,13 +30,13 @@ const developedProjects = [
         category: "Web Application / Design",
         image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016255/Screenshot_2026-01-21_at_10.52.25_PM_rl4pyu.png"
     },
-    {
-        title: "Solnexx",
-        description: "Innovative digital solutions empowering businesses with scalable technology and strategic design.",
-        link: "https://solnexx.com/",
-        category: "Corporate / Technology",
-        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016257/Screenshot_2026-01-21_at_10.51.43_PM_c6izcp.png"
-    },
+    // {
+    //     title: "Solnexx",
+    //     description: "Innovative digital solutions empowering businesses with scalable technology and strategic design.",
+    //     link: "https://solnexx.com/",
+    //     category: "Corporate / Technology",
+    //     image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016257/Screenshot_2026-01-21_at_10.51.43_PM_c6izcp.png"
+    // },
 ];
 
 const developingProjects = [
