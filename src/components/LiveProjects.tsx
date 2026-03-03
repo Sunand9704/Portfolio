@@ -16,6 +16,13 @@ const developedProjects = [
         category: "Corporate / Industrial",
         image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016253/Screenshot_2026-01-21_at_10.51.16_PM_ige3de.png"
     },
+     {
+        title: "Ferret Technologies",
+        description: "Innovative technology partner building scalable digital products, AI solutions, and cloud-native applications for startups and enterprises.",
+        link: "https://ferrettechnologies.com",
+        category: "Corporate / Technology",
+        image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1772520532/Screenshot_2026-03-03_at_12.18.43_PM_ulnxwb.png"
+    },
     {
         title: "Inspectors 360",
         description: "Leading provider of recruitment, staffing, and HR administration. Specializing in technical staff and industrial equipment supply.",
@@ -30,6 +37,7 @@ const developedProjects = [
         category: "Web Application / Design",
         image: "https://res.cloudinary.com/dk6rrrwum/image/upload/v1769016255/Screenshot_2026-01-21_at_10.52.25_PM_rl4pyu.png"
     },
+   
     // {
     //     title: "Solnexx",
     //     description: "Innovative digital solutions empowering businesses with scalable technology and strategic design.",
