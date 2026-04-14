@@ -30,10 +30,12 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 bg-white text-black flex items-center justify-center font-bold text-xs rounded-lg group-hover:bg-primary transition-colors">
-            T
-          </div>
-          <span className="text-lg font-semibold tracking-tighter text-white group-hover:text-primary transition-colors duration-300 font-display uppercase">
+          <img 
+            src="/Triozen-logo-removebg-preview.png" 
+            alt="Triozen Logo" 
+            className="h-10 w-auto object-contain"
+          />
+          <span className="text-xl font-bold tracking-tighter text-white group-hover:text-primary transition-colors duration-300 font-display uppercase">
             Triozen.Tech
           </span>
         </a>
