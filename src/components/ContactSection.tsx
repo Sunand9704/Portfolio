@@ -25,10 +25,10 @@ const ContactSection = () => {
               Email Us
             </span>
             <a
-              href="mailto:triozen.tech@gmail.com"
+              href="mailto:hello@triozen.tech"
               className="text-xl md:text-3xl font-medium text-white group-hover:text-primary transition-colors break-all"
             >
-              triozen.tech@gmail.com
+             hello@triozen.tech
             </a>
           </div>
 
